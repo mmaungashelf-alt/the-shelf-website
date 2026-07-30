@@ -1,0 +1,48 @@
+/* ==========================================
+   THE SHELF DESIGN SYSTEM
+   ========================================== */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Color Palette */
+:root {
+
+    /* Brand Colors */
+    --primary: #2E7D32;
+    --primary-light: #4CAF50;
+    --accent: #7E57C2;
+    --harvest: #F9A825;
+    --earth: #795548;
+
+    /* Backgrounds */
+    --background: #FAFAF5;
+    --surface: #FFFFFF;
+    --surface-alt: #F4F6F3;
+
+    /* Text */
+    --text-primary: #263238;
+    --text-secondary: #546E7A;
+    --text-light: #FFFFFF;
+
+    /* Borders */
+    --border: #E0E0E0;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0,0,0,.08);
+    --shadow-md: 0 8px 25px rgba(0,0,0,.10);
+    --shadow-lg: 0 18px 40px rgba(0,0,0,.15);
+
+    /* Typography */
+    --font-heading: "Poppins", sans-serif;
+    --font-body: "Inter", sans-serif;
+
+    /* Layout */
+    --container-width: 1200px;
+
+    --section-padding: 100px;
+
+    --border-radius: 16px;
+
+    --transition: .3s ease;
+}
