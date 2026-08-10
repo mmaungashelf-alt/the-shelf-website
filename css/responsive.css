@@ -33,3 +33,67 @@
     }
 
 }
+
+/* =====================================
+   EVIDENCE RESPONSIVE
+===================================== */
+
+@media (max-width:900px){
+
+    .evidence-intro{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .prototype-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .technical-feature{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .technical-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media (max-width:600px){
+
+    .prototype-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .evidence-intro-text,
+    .evidence-intro-highlight{
+
+        padding:30px;
+
+    }
+
+    .evidence-group-header h3,
+    .technical-copy h3{
+
+        font-size:1.6rem;
+
+    }
+
+    .evidence-statement{
+
+        align-items:flex-start;
+
+        padding:25px;
+
+    }
+
+}

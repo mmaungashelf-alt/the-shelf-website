@@ -517,3 +517,373 @@
     border-radius:var(--border-radius);
 
 }
+
+/* =====================================
+   EVIDENCE / PROTOTYPE
+===================================== */
+
+.evidence{
+
+    padding:var(--section-padding) 0;
+
+    background:var(--surface);
+
+}
+
+.evidence-intro{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:40px;
+
+    align-items:stretch;
+
+    margin-bottom:100px;
+
+}
+
+.evidence-intro-text{
+
+    background:var(--background);
+
+    padding:45px;
+
+    border-radius:var(--border-radius);
+
+}
+
+.evidence-label{
+
+    display:inline-block;
+
+    color:var(--accent);
+
+    font-size:.8rem;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    margin-bottom:15px;
+
+}
+
+.evidence-intro-text h3{
+
+    font-family:var(--font-heading);
+
+    font-size:2rem;
+
+    line-height:1.3;
+
+    margin-bottom:20px;
+
+}
+
+.evidence-intro-text p{
+
+    color:var(--text-secondary);
+
+    max-width:700px;
+
+}
+
+.evidence-intro-highlight{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    padding:40px;
+
+    border-radius:var(--border-radius);
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+.evidence-intro-highlight strong{
+
+    font-family:var(--font-heading);
+
+    font-size:1.5rem;
+
+    margin-bottom:8px;
+
+}
+
+.evidence-intro-highlight span{
+
+    font-size:1.1rem;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+.evidence-intro-highlight small{
+
+    opacity:.85;
+
+    line-height:1.6;
+
+}
+
+.evidence-group{
+
+    margin-bottom:100px;
+
+}
+
+.evidence-group-header{
+
+    max-width:800px;
+
+    margin-bottom:45px;
+
+}
+
+.evidence-group-header h3{
+
+    font-family:var(--font-heading);
+
+    font-size:2rem;
+
+    margin:15px 0;
+
+}
+
+.evidence-group-header p{
+
+    color:var(--text-secondary);
+
+}
+
+.prototype-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.prototype-card{
+
+    margin:0;
+
+    background:var(--background);
+
+    border-radius:var(--border-radius);
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+.prototype-card img{
+
+    display:block;
+
+    width:100%;
+
+    height:360px;
+
+    object-fit:contain;
+
+    background:#f7f7f7;
+
+    padding:15px;
+
+}
+
+.prototype-card figcaption{
+
+    padding:18px 20px;
+
+    font-weight:600;
+
+}
+
+.technical-evidence{
+
+    padding-top:20px;
+
+}
+
+.technical-feature{
+
+    display:grid;
+
+    grid-template-columns:1.3fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+    margin-bottom:50px;
+
+}
+
+.technical-image{
+
+    background:var(--background);
+
+    padding:20px;
+
+    border-radius:var(--border-radius);
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+.technical-image img{
+
+    display:block;
+
+    width:100%;
+
+}
+
+.technical-copy h3{
+
+    font-family:var(--font-heading);
+
+    font-size:2rem;
+
+    line-height:1.3;
+
+    margin-bottom:20px;
+
+}
+
+.technical-copy p{
+
+    color:var(--text-secondary);
+
+    margin-bottom:25px;
+
+}
+
+.technical-copy ul{
+
+    padding-left:20px;
+
+}
+
+.technical-copy li{
+
+    margin-bottom:10px;
+
+}
+
+.technical-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.technical-card{
+
+    margin:0;
+
+    background:var(--background);
+
+    padding:15px;
+
+    border-radius:var(--border-radius);
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+.technical-card img{
+
+    display:block;
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:contain;
+
+    background:white;
+
+    border-radius:10px;
+
+}
+
+.technical-card figcaption{
+
+    padding:15px 5px 5px;
+
+    font-weight:600;
+
+}
+
+.evidence-statement{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+    padding:35px;
+
+    background:#E8F5E9;
+
+    border-radius:var(--border-radius);
+
+}
+
+.evidence-statement-icon{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    flex:0 0 55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-size:1.5rem;
+
+    font-weight:700;
+
+}
+
+.evidence-statement h3{
+
+    font-family:var(--font-heading);
+
+    margin-bottom:8px;
+
+}
+
+.evidence-statement p{
+
+    color:var(--text-secondary);
+
+}
