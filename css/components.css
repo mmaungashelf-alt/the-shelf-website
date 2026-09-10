@@ -46,6 +46,49 @@
 
 }
 
+/* =====================================
+   BRAND / NAVIGATION LOGO
+===================================== */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-icon {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.logo-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1;
+}
+
+.logo-text {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 1.35rem;
+    line-height: 1.1;
+}
+
+.logo-tagline {
+    margin-top: 4px;
+    font-family: var(--font-body);
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: var(--accent);
+    white-space: nowrap;
+}
+
 .hero-badge{
 
     display:inline-block;
@@ -296,6 +339,14 @@
 
     background:var(--background);
 
+}
+
+.solution-differentiator {
+    max-width: 850px;
+    margin: 30px auto 0;
+    text-align: center;
+    color: var(--text-secondary);
+    font-weight: 600;
 }
 
 .solution-flow{
@@ -885,5 +936,79 @@
 .evidence-statement p{
 
     color:var(--text-secondary);
+
+}
+
+/* =====================================
+   BRAND LOCKUP
+===================================== */
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    min-width:190px;
+
+}
+
+.logo-icon{
+
+    width:42px;
+
+    height:42px;
+
+    object-fit:contain;
+
+    flex-shrink:0;
+
+}
+
+.logo-copy{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    line-height:1.1;
+
+}
+
+.logo-text{
+
+    font-family:var(--font-heading);
+
+    font-weight:700;
+
+    color:var(--primary);
+
+    font-size:1.35rem;
+
+    line-height:1.15;
+
+}
+
+.logo-tagline{
+
+    margin-top:4px;
+
+    color:var(--accent);
+
+    font-family:var(--font-body);
+
+    font-size:.68rem;
+
+    font-weight:600;
+
+    letter-spacing:1.2px;
+
+    text-transform:uppercase;
+
+    white-space:nowrap;
 
 }
